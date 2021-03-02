@@ -1,6 +1,6 @@
 const http = require('http');
 
 http.createServer((req, res)=>{
-req.write("Hello World \n");
-res.end();
-}).listen(8000);
+  res.write("Hello BScBest! \n"); // write a response
+  res.end(); //end the response
+}).listen(8000); // listen for requests on port 8000
